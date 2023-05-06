@@ -9,8 +9,8 @@ const Header = (props) => {
                 <div>
                     <Image
                         src='/assets/logo/bufet-logo-transperant.png'
-                        width={200}
-                        height={200}
+                        width={150}
+                        height={150}
                         alt='Logo'
                     />
                 </div>
