@@ -1,7 +1,4 @@
 import Link from 'next/link';
-// import Container from 'react-bootstrap/Container';
-// import Navbar from 'react-bootstrap/Navbar';
-import Image from 'next/image';
 import DarkLogo from '@/components/Logo/DarkLogo';
 import classes from './Navbar.module.css';
 
@@ -15,7 +12,7 @@ function NavbarCustomComponent() {
                         <Link href='/menu-of-the-day'>Меню на Деня</Link>
                     </li>
                     <li>
-                        <Link href='/menu-of-the-day'>Меню</Link>
+                        <Link href='/menu'>Меню</Link>
                     </li>
                 </ul>
             </nav>
