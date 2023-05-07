@@ -6,7 +6,9 @@ function NavbarCustomComponent() {
     return (
         <>
             <nav className={classes.nav}>
-                <DarkLogo />
+                <Link href='/'>
+                    <DarkLogo />
+                </Link>
                 <ul>
                     <li>
                         <Link href='/menu-of-the-day'>Меню на Деня</Link>
