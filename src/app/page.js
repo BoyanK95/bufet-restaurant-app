@@ -4,7 +4,9 @@ import Layout from '@/components/Layout/Layout';
 export default function Home() {
     return (
         <Layout>
-            <main className={styles.main}>Home</main>
+            <main className={styles.main}>
+                <h1>Home</h1>
+            </main>
         </Layout>
     );
 }
