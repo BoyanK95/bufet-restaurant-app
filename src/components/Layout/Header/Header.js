@@ -1,21 +1,13 @@
 import React from 'react';
-import classes from './Header.module.css';
-import Image from 'next/image';
+import NavbarCustomComponent from '../Navbar/Navbar';
+import DarkLogo from '@/components/Logo/DarkLogo';
 
 const Header = (props) => {
     return (
         <>
-            <header className={classes.header}>
-                <div>
-                    <Image
-                        src='/assets/logo/bufet-logo-transperant.png'
-                        width={150}
-                        height={150}
-                        alt='Logo'
-                    />
-                </div>
+            <header>
+                <NavbarCustomComponent />
             </header>
-            <div className={classes['main-image']}></div>
         </>
     );
 };

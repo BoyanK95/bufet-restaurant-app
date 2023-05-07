@@ -1,7 +1,10 @@
-import Image from 'next/image';
 import styles from './page.module.css';
-import Header from '@/components/Layout/Header/Header';
+import Layout from '@/components/Layout/Layout';
 
 export default function Home() {
-    return <main className={styles.main}>Home</main>;
+    return (
+        <Layout>
+            <main className={styles.main}>Home</main>
+        </Layout>
+    );
 }
