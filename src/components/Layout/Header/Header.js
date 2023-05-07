@@ -1,8 +1,7 @@
 import React from 'react';
 import NavbarCustomComponent from '../Navbar/Navbar';
-import DarkLogo from '@/components/Logo/DarkLogo';
 
-const Header = (props) => {
+const Header = () => {
     return (
         <>
             <header>

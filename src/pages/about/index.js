@@ -1,11 +1,11 @@
 import styles from '../../app/page.module.css' 
 
-function MenuPage() {
+function AboutPage() {
     return (
         <main className={styles.main}>
-            <h1>Menu Page</h1>
+            <h1>About Page</h1>
         </main>
     );
 }
 
-export default MenuPage;
+export default AboutPage;

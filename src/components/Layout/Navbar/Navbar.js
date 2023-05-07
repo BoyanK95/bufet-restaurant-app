@@ -1,11 +1,11 @@
 import Link from 'next/link';
 import DarkLogo from '@/components/Logo/DarkLogo';
-import classes from './Navbar.module.css';
+import styles from './Navbar.module.css';
 
 function NavbarCustomComponent() {
     return (
         <>
-            <nav className={classes.nav}>
+            <nav className={styles.nav}>
                 <Link href='/'>
                     <DarkLogo />
                 </Link>
@@ -15,6 +15,9 @@ function NavbarCustomComponent() {
                     </li>
                     <li>
                         <Link href='/menu'>Меню</Link>
+                    </li>
+                    <li>
+                        <Link href='/about'>За нас</Link>
                     </li>
                 </ul>
             </nav>
