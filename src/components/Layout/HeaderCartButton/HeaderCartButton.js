@@ -1,5 +1,6 @@
+'use client'
 import { useContext, useEffect, useState } from 'react';
-import CartIcon from '../Cart/CartIcon';
+import CartIcon from '@/components/Cart/CartIcon';
 import classes from './HeaderCartButton.module.css';
 // import CartContext from "../../store/cart-context";
 
@@ -8,6 +9,7 @@ const HeaderCartButton = (props) => {
     //   const cartCtx = useContext(CartContext)
 
     //   const {items} = cartCtx
+    const items = 0
 
     //   const numberOfCartItem = items.reduce((curNumber, item) => {
     //     return curNumber + item.amount

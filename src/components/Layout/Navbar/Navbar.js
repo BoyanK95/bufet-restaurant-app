@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import DarkLogo from '@/components/Logo/DarkLogo';
 import styles from './Navbar.module.css';
+import HeaderCartButton from '../HeaderCartButton/HeaderCartButton';
 
 function NavbarCustomComponent() {
     return (
@@ -20,6 +21,7 @@ function NavbarCustomComponent() {
                         <Link href='/about'>За нас</Link>
                     </li>
                 </ul>
+                <HeaderCartButton />
             </nav>
         </>
     );
